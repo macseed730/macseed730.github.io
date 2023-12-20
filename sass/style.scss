@@ -420,7 +420,7 @@ h1, h2, h3, h4, h5, h6, figure {
 		list-style: none;
 		@include inline-block;
 		a {
-			@include inline-block;
+			@include flex;
 			color: $brand-primary;
 			padding-left: 10px;
 			padding-right: 10px;
@@ -440,10 +440,8 @@ h1, h2, h3, h4, h5, h6, figure {
 			list-style: none;
 			@include inline-block;
 			a {
-				@include inline-block;
 				color: $brand-white;
 				background: $brand-bg-dark;
-				padding: 10px 10px 2px 10px;
 				@include border-radius(2px);
 				i {
 					font-size: 20px;
